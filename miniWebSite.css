@@ -1,0 +1,76 @@
+p{
+    font-size: large;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+
+}
+
+#anime-list{
+
+
+
+}
+
+.anime-btn{
+ 
+
+
+}
+
+#episode-list{
+    display: none;
+    position: absolute;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 12px; /* 요게 그거임 그 테두리 둥글게깎는거*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+}
+
+.episode-btn{
+    display: flex;
+    width: 490px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer; /* 이건 버튼 위에 올렸을때 마우스커서 바뀜*/
+}
+
+
+#player-box{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+
+    
+
+}
+
+/*
+참고로 요렇게 만들면 이건 자식들을 정렬시키는거임 화면상단 중앙으로 즉 자기자신한테 쓰는거아님
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: start;
+*/
+
+h2{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
